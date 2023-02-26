@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "$roboBlack";
+  src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: "$roboBold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "$roboLight";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "$roboMedium";
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "$roboRegular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "$roboThin";
+  src: url("../fonts/Roboto-Thin.ttf");
+}
+h2 {
+  font-family: "roboBlack";
+  color: #22234F;
+  font-size: 2rem;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #22234F;
+}
+
+#bienvenue {
+  margin: auto;
+}
+#bienvenue .bienvenue {
+  width: 550;
+}
+#bienvenue h2 {
+  margin: 1rem auto 2rem;
+}
+#bienvenue h2::after {
+  content: "";
+  display: block;
+  width: 20vw;
+  height: 0.5vh;
+  background-color: #FF0000;
+  margin: 1rem auto;
+  transition: all 0.6s ease-out;
+}
+#bienvenue h2:hover::after {
+  width: 70vw;
+  height: 1.5vh;
+}
+#bienvenue .button {
+  padding: 0.5rem 2rem;
+  background-color: #22234F;
+  color: white;
+  margin-bottom: 1rem;
+}
+#bienvenue img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+#chiens {
+  background-color: #EAF0FF;
+  height: 70vh;
+  margin-bottom: 30vh;
+}
+#chiens h2::after {
+  content: "";
+  display: block;
+  width: 5vw;
+  height: 0.5vh;
+  background-color: #FF0000;
+  margin: 1rem auto;
+  transition: all 0.6s ease-out;
+}
+#chiens h2:hover::after {
+  width: 27vw;
+  height: 1.5vh;
+}
+#chiens h4 {
+  padding: 0.5rem 4rem 2.5rem;
+  background-color: white;
+  color: #22234F;
+}
+
+footer {
+  background-color: #EAF0FF;
+  height: 30vh;
+  color: white;
+}
+footer a {
+  color: white;
+}
+footer .container .row {
+  transform: translateY(-15%);
+  background-color: #22234F;
+}
+footer .container .row .cnda {
+  background-color: white;
+  box-shadow: 1px 1px 2px grey;
+}
+footer .container .row .right {
+  color: #FF0000;
+}
+footer .socialpink {
+  background-color: #FF0000;
+}
+
+/*# sourceMappingURL=style.css.map */

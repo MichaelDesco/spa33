@@ -1,0 +1,15 @@
+{
+  "name": "33spa",
+  "version": "1.0.0",
+  "description": "projet de formation bootstrap & sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w assets/scss:assets/css"
+  },
+  "author": "RawJay",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
